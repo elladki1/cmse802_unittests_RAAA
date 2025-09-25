@@ -1,10 +1,10 @@
 #def load_html(source: str) -> str
+import requests
+
 def load_html(url):
        """
        Accepts a url (string) and returns the source html of a webpage.
        """
-       import requests
-
        try:
          response = requests.get(url)
          return response.text # Return the HTML content of the page for valid URLs
