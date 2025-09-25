@@ -5,7 +5,7 @@ from combine import combine_handles
 
 import sys
 
-def msu_handle_finder(source: str) -> str:
+def msu_handle_finder(source):
     """
     This main function executes the entire pipeline.
 
